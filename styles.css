@@ -1,9 +1,11 @@
 /* Тут пиши основные стили */
+body {
+    margin: 0;
+}
 nav > ul > li{
-    background-color: #d2d0d0;
     list-style: none inside;
     display: inline;
-    font-family:LucidaGrande;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
     font-size:24px;
     color:#333333;
     text-align:left;
@@ -11,7 +13,11 @@ nav > ul > li{
     margin-right: 30px;
 }
 nav > ul{
-    background-color: #d2d0d0;
+    background-color: #FAF9F8;
+    padding: 20px 38px;
+    border: solid;
+    border-width: 1px;
+    width: 100%;
 }
 article {
     margin: auto;
@@ -41,6 +47,19 @@ article > h1 {
 article > p > code {
     font-family: "Courier New", monospace;
     background-color: gray;
+}
+
+nav > img {
+    margin: 10px 38px;
+}
+
+a:hover {
+    text-decoration-line: underline;
+    cursor: url("responsive-design/E8E9A56B-53B7-494E-BE52-747EE607EC62/5301AFFB-CEE8-43FC-8F06-FB9785DF6E4A@1x.png"), auto;	
+}
+
+.red-link {
+    color: red;
 }
 
 
