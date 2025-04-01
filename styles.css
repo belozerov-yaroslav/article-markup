@@ -1,5 +1,9 @@
 /* Тут пиши основные стили */
-
+article {
+    margin: auto;
+    text-align: left;
+    width: 700px;
+}
 
 @media (max-width: 800px) {
 /* Тут пиши стили для мобилки.
