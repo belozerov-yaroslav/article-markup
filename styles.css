@@ -16,6 +16,7 @@ nav > ul{
     background-color: #FAF9F8;
     padding: 20px 38px;
     border: solid;
+    border-left: none;
     border-width: 1px;
     width: 100%;
 }
@@ -46,11 +47,16 @@ article > h1 {
 
 article > p > code {
     font-family: "Courier New", monospace;
-    background-color: gray;
+    background-color: #F2F2F2;
 }
 
 nav > img {
     margin: 10px 38px;
+}
+
+a {
+    color: black;
+    text-decoration-line: none;
 }
 
 a:hover {
@@ -58,13 +64,43 @@ a:hover {
     cursor: url("responsive-design/E8E9A56B-53B7-494E-BE52-747EE607EC62/5301AFFB-CEE8-43FC-8F06-FB9785DF6E4A@1x.png"), auto;	
 }
 
-.red-link {
+a:visited  {
     color: red;
 }
 
 
 @media (max-width: 800px) {
-/* Тут пиши стили для мобилки.
-    Стили применятся только когда страничка будет ≤800px шириной
- */
+    
+    nav > img {
+        margin: 10px 20px;
+    }
+
+    nav > ul > li{
+        list-style: none inside;
+        display: block;
+        font-size: 20px;
+    }
+    nav > ul {
+        padding: 15px 20px;
+        margin-top: 0;
+    }
+    article > h1 {
+        font-size: 26px;
+        line-height: 120%;
+        margin-bottom: 20px;
+        margin-top: 0;
+    }
+    article {
+        width: 520px;
+        margin-bottom: 0;
+    }
+    article > p {
+        line-height: 120%;
+        font-size: 18px;
+        margin-bottom: ;
+    }
+
+    article > img {
+        width: 520px;
+    }
 }
