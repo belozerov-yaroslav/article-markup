@@ -11,6 +11,8 @@ article > p {
     color:rgba(0,0,0,0.84);
     text-align:left;
     line-height:33px;
+    margin-top: 0;
+    margin-bottom: 30px;
 }
 
 article > h1 {
@@ -19,6 +21,7 @@ article > h1 {
     color:rgba(0,0,0,0.84);
     text-align:left;
     line-height:44px;
+    margin-bottom: 10px;
 }
 
 article > p > code {
